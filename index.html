@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Quang Phu Ly Personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="#main-section">
+              <img id="logo-img" src="./images/logo.png" alt="Main logo"/>
+            </a>
+          </h1>
+          <nav>
+            <ul>
+              <li class="list-items"><a href="#main-section">About</a></li>
+              <li class="list-items"><a href="#projects">Projects</a></li>
+              <li class="list-items"><a href="#skill">Skills</a></li>
+              <li class="list-items"><a href="#contact-all">Contact</a></li>
+              <li class="list-items" id="resume">
+                <a
+                  href="#main-section"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+          </nav>
+    </header>
+
+    <div id="main-section">
+        <aside id = "aside-left">
+          <div>
+            <img src="./images/myself.jpg" alt="Quang Phu Ly self image"/>
+          </div>
+        </aside>
+        <section id="about">
+            <h1>Hi, my name is:</h1>
+            <h2 id="my-name"></h2>
+            <h3>Sophomore in Computer Science and Software Engineering at Gannon University</h3>
+            <p>
+                Passionate in full-stack software engineering and AI/ML industry. Willing to to gain experience by working in a professional environment.
+                Ability to learn new skills quickly, solve problems, and work in teams.
+                Completed relevant courses in computer programming and can code in many languages with adequate knowledge in data structures, algorithms, and supported softwares or frameworks.
+            </p>
+            <a href="#projects"><button>Check Out My Work</button></a>
+        </section>
+    </div>
+
+    <main>
+      <section id="projects">
+        <h1>Projects</h1>
+
+        <article>
+            <img src="./images/spotify.png" />
+            <h2>Jammming - Spotify API</h2>
+            <h3>React.js, RESTful API</h3>
+            <hr style="border: 1px solid white; width: 100%" />
+            <p>
+              This React app allows users to search the Spotify library, create
+              a custom playlist, then save it to their Spotify account.
+            </p>
+            <a href="https://spotify-cc.surge.sh/" target="_blank"
+              ><button>Demo</button>
+            </a>
+        </article>
+
+        <article>
+            <img src="./images/chess.png" />
+            <h2>Chess Club Website</h2>
+            <h3>HTML,CSS</h3>
+            <hr style="border: 1px solid white; width: 100%" />
+            <p>
+              A static HTML,CSS design for a Chess Club Website where chess
+              enthusiasts or club members come together to enjoy the game.
+            </p>
+            <a
+              href="https://abdullah-ayyash.github.io/responsive-club-website/"
+              target="_blank"
+              ><button>Demo</button>
+            </a>
+        </article>
+
+        <article>
+            <img src="./images/credit-card.png" />
+            <h2>Credit Card Checker</h2>
+            <h3>Javascript</h3>
+            <hr style="border: 1px solid white; width: 100%" />
+            <p>
+                A Simple Javascript credit card checker that validates card
+                numbers using the Luhn algorithm.
+            </p>
+            <a
+                href="https://github.com/abdullah-ayyash/credit-card-checker"
+                target="_blank"
+                ><button>Github Code</button>
+            </a>
+        </article>
+
+        <article>
+            <img src="./images/dna.png" />
+            <h2>DNA Simulation</h2>
+            <h3>Javascript</h3>
+            <hr style="border: 1px solid white; width: 100%" />
+            <p>
+                Simulating the DNA and mutation speed of a living system
+                (Pila-Aequor-Organism) using JavaScript objects
+            </p>
+            <a
+                href="https://github.com/abdullah-ayyash/Pila-Aequor-Organism"
+                target="_blank"
+                ><button>Github Code</button>
+            </a>
+        </article>
+      </section>
+
+      <section id="skill">
+        <h1>Skills</h1>
+        <div id="skills-container">
+          <div class="skills-card">
+              <div class="skills-card-icon-container html">
+                <img src="images\html-colour.svg" alt="">
+              </div>
+              <div class="skills-card-description"><p>HTML5</p></div>
+              <div class="skills-card-level">
+                  <div class="level-fraction"><span>_</span></div>
+                  <div class="level-fraction"><span>m</span></div>
+                  <div class="level-fraction"><span>i</span></div>
+                  <div class="level-fraction"><span>d</span></div>
+                  <div class="level-fraction"><span>d</span></div>
+                  <div class="level-fraction"><span>l</span></div>
+                  <div class="level-fraction"><span>e</span></div>
+              </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container css">
+              <img src="images\css-colour.svg" alt="">
+            </div>    
+            <div class="skills-card-description"><p>CSS3</p></div>
+            <div class="skills-card-level">
+                <div class="level-fraction"><span>_</span></div>
+                <div class="level-fraction"><span>m</span></div>
+                <div class="level-fraction"><span>i</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>l</span></div>
+                <div class="level-fraction"><span>e</span></div>
+            </div>
+        </div>
+
+          <div class="skills-card">
+              <div class="skills-card-icon-container js"></div>
+              <div class="skills-card-description"><p>JavaScript ES6</p></div>
+              <div class="skills-card-level">
+                <div class="level-fraction"><span>_</span></div>
+                <div class="level-fraction"><span>m</span></div>
+                <div class="level-fraction"><span>i</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>l</span></div>
+                <div class="level-fraction"><span>e</span></div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+              <div class="skills-card-icon-container bootstrap">
+                <img src="images\bootstrap logo.png" alt="">
+              </div>
+              <div class="skills-card-description"><p>Bootstrap</p></div>
+              <div class="skills-card-level">
+                  <div class="level-fraction"><span>_</span></div>
+                  <div class="level-fraction"><span>b</span></div>
+                  <div class="level-fraction"><span>a</span></div>
+                  <div class="level-fraction"><span>s</span></div>
+                  <div class="level-fraction"><span>i</span></div>
+                  <div class="level-fraction"><span>c</span></div>
+              </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container mocha">
+              <img src="images\mocha logo.svg" alt="">
+            </div>
+            <div class="skills-card-description"><p>Mocha Testing</p></div>
+            <div class="skills-card-level">
+                <div class="level-fraction"><span>_</span></div>
+                <div class="level-fraction"><span>m</span></div>
+                <div class="level-fraction"><span>i</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>l</span></div>
+                <div class="level-fraction"><span>e</span></div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container react">
+              <img src="images\react-logo.svg" alt="">
+            </div>
+            <div class="skills-card-description"><p>React</p></div>
+            <div class="skills-card-level">
+              <div class="level-fraction"><span>_</span></div>
+              <div class="level-fraction"><span>b</span></div>
+              <div class="level-fraction"><span>a</span></div>
+              <div class="level-fraction"><span>s</span></div>
+              <div class="level-fraction"><span>i</span></div>
+              <div class="level-fraction"><span>c</span></div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container java">
+              <img src="images\java-logo.png" alt="">
+            </div>
+            <div class="skills-card-description"><p>Java</p></div>
+            <div class="skills-card-level">
+                <div class="level-fraction"><span>_</span></div>
+                <div class="level-fraction"><span>m</span></div>
+                <div class="level-fraction"><span>i</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>l</span></div>
+                <div class="level-fraction"><span>e</span></div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container python">
+              <img src="images/python logo.png" alt="">
+            </div>
+            <div class="skills-card-description"><p>Python 3</p></div>
+            <div class="skills-card-level">
+                <div class="level-fraction"><span>_</span></div>
+                <div class="level-fraction"><span>m</span></div>
+                <div class="level-fraction"><span>i</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>l</span></div>
+                <div class="level-fraction"><span>e</span></div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container csharp">
+              <img src="images/c-sharp logo.png" alt="">
+            </div>
+            <div class="skills-card-description"><p>C#</p></div>
+            <div class="skills-card-level">
+                <div class="level-fraction"><span>_</span></div>
+                <div class="level-fraction"><span>m</span></div>
+                <div class="level-fraction"><span>i</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>d</span></div>
+                <div class="level-fraction"><span>l</span></div>
+                <div class="level-fraction"><span>e</span></div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container cpp">
+              <img src="images\cpp logo.png" alt="">
+            </div>
+            <div class="skills-card-description"><p>C++</p></div>
+            <div class="skills-card-level">
+              <div class="level-fraction"><span>_</span></div>
+              <div class="level-fraction"><span>b</span></div>
+              <div class="level-fraction"><span>a</span></div>
+              <div class="level-fraction"><span>s</span></div>
+              <div class="level-fraction"><span>i</span></div>
+              <div class="level-fraction"><span>c</span></div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container linux">
+              <img src="images\linux logo.png" alt="">
+            </div>
+            <div class="skills-card-description"><p>Linux Programming</p></div>
+            <div class="skills-card-level">
+              <div class="level-fraction"><span>_</span></div>
+              <div class="level-fraction"><span>b</span></div>
+              <div class="level-fraction"><span>a</span></div>
+              <div class="level-fraction"><span>s</span></div>
+              <div class="level-fraction"><span>i</span></div>
+              <div class="level-fraction"><span>c</span></div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container git">
+              <img src="images\git.png" alt="">
+            </div>
+            <div class="skills-card-description"><p>Git and GitHub</p></div>
+            <div class="skills-card-level">
+              <div class="level-fraction"><span>_</span></div>
+              <div class="level-fraction"><span>b</span></div>
+              <div class="level-fraction"><span>a</span></div>
+              <div class="level-fraction"><span>s</span></div>
+              <div class="level-fraction"><span>i</span></div>
+              <div class="level-fraction"><span>c</span></div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="skills-card-icon-container software">
+              <img src="images\software-desktop.png" alt="">
+            </div>
+            <div class="skills-card-description"><p>Software Design</p></div>
+            <div class="skills-card-level">
+              <div class="level-fraction"><span>_</span></div>
+              <div class="level-fraction"><span>m</span></div>
+              <div class="level-fraction"><span>i</span></div>
+              <div class="level-fraction"><span>d</span></div>
+              <div class="level-fraction"><span>d</span></div>
+              <div class="level-fraction"><span>l</span></div>
+              <div class="level-fraction"><span>e</span></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      
+      <section id="contact-all">
+        <h1 id="contacts-heading">Contact</h1>
+        <section id="contacts">
+          <div class="contact-card">
+            <div class="contact-card-image-container">
+              <p>PL</p>
+            </div>
+            <div class="contact-card-description">
+                <h4>Quang Phu Ly</h4>
+                <p>Sophomore at Gannon University in <br class="contact-break">Computer Science and <br class="contact-break">Software Engineering</p>
+            </div>
+          </div>
+          <div class="contact-card-contacts">
+              <div class="contact">
+                  <a href="https://github.com/thatkit/" target="_blank"><div class="contact-icon-container linkedin">
+                    <img src="images/linkedin-logo.png" alt="">
+                  </div></a>
+                  <a class="contact-full-url" href="https://github.com/thatkit/" target="_blank">thatKit</a>
+              </div>
+              <div class="contact">
+                  <a href="mailto:fakeemail@gmail.com"><div class="contact-icon-container gmail">
+                    <img src="images\gmail-colour.svg" alt="">
+                  </div></a>
+                  <a class="contact-full-url" href="mailto:quangphuly150402@gmail.com">quangphuly150402@gmail.com</a>
+              </div>            
+          </div>
+        </section>
+      </section>
+    </main>
+
+    
+
+    <section id="preview">
+        <div id="preview-div">
+            <img id="preview-img" style="cursor: zoom-in" />
+            <h1 id="close-btn">X</h1>
+        </div>
+    </section>
+
+    <footer></footer>
+    <script src="index.js"></script>
+    
+</body>
+</html>
