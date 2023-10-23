@@ -336,9 +336,10 @@ div.skills-card-icon-container.css img{
 }
 
 div.skills-card-icon-container.js {
-    background: url(images/js-colour.svg) center/100% no-repeat;
-    height: 3.375rem;
-    shape-rendering: crispEdges;
+    height: 2.25rem;
+}
+div.skills-card-icon-container.js img{
+    width: 100%;
 }
 
 div.skills-card-icon-container.bootstrap {
